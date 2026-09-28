@@ -50,7 +50,7 @@ Signed-off-by: Sebastian Andrzej Siewior <bigeasy@linutronix.de>
  
 --- a/include/linux/sched.h
 +++ b/include/linux/sched.h
-@@ -2022,7 +2022,8 @@ static inline void set_tsk_need_resched(
+@@ -2030,7 +2030,8 @@ static inline void set_tsk_need_resched(
  
  static inline void clear_tsk_need_resched(struct task_struct *tsk)
  {
@@ -111,7 +111,7 @@ Signed-off-by: Sebastian Andrzej Siewior <bigeasy@linutronix.de>
  					   const void * const stackend,
 --- a/kernel/entry/common.c
 +++ b/kernel/entry/common.c
-@@ -98,7 +98,7 @@ void __weak arch_do_signal_or_restart(st
+@@ -101,7 +101,7 @@ void __weak arch_do_signal_or_restart(st
  
  		local_irq_enable_exit_to_user(ti_work);
  

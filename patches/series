@@ -51,7 +51,6 @@
 0004-sched-x86-Enable-Lazy-preemption.patch
 0005-sched-Add-laziest-preempt-model.patch
 sched-Fixup-the-IS_ENABLED-check-for-PREEMPT_LAZY.patch
-0001-powerpc-Add-preempt-lazy-support.patch
 0002-powerpc-Large-user-copy-aware-of-full-rt-lazy-preemp.patch
 #
 tracing-Remove-TRACE_FLAG_IRQS_NOSUPPORT.patch
@@ -63,9 +62,6 @@ tracing-Remove-TRACE_FLAG_IRQS_NOSUPPORT.patch
 ###########################################################################
 # 56d97d3587b ("ARM: 9459/1: Disable jump-label on PREEMPT_RT")
 0001-arm-Disable-jump-label-on-PREEMPT_RT.patch
-
-# 59e4f3b45b96a ("ARM: ensure interrupts are enabled in __do_user_fault()")
-0001-ARM-ensure-interrupts-are-enabled-in-__do_user_fault.patch
 
 # fedadc413723 ("ARM: 9461/1: Disable HIGHPTE on PREEMPT_RT kernels")
 arm-Disable-FAST_GUP-on-PREEMPT_RT-if-HIGHPTE-is-als.patch
